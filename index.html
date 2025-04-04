@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Vikoisoft - Blockchain software development</title>
+    <link rel="shortcut icon" type="image/png" href="https://vikoisoft.com/assets/vikoisoft/images/logo-2.svg" />
+    <meta name="description" content="Vikoisoft is an enterprise providing and developing software applications on many Web, mobile and blockchain platforms." />
+    <meta name="keywords" content="Vikoisoft, blockchain, webapp, web, app mobile, website development" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta property="og:title" content="Vikoisoft - Blockchain software development" />
+    <meta property="og:description" content="Vikoisoft is an enterprise providing and developing software applications on many Web, mobile and blockchain platforms." />
+    <meta property="og:url" content="https://vikoisoft.com/" />
+    <meta property="og:image" content="https://vikoisoft.com/assets/vikoisoft/logo.svg" />
+    <meta property="og:type" content="article" />
+    <meta property="twitter:title" content="Vikoisoft - Blockchain software development" />
+    <meta property="twitter:description" content="Vikoisoft is an enterprise providing and developing software applications on many Web, mobile and blockchain platforms." />
+    <meta property="twitter:image" content="https://vikoisoft.com/assets/vikoisoft/logo.svg" />
+    <meta property="twitter:url" content="https://vikoisoft.com/" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,700i&display=swap" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="https://vikoisoft.com/assets/aimesoft/css/main.css?v5" type="text/css"
+          media="screen"/> -->
+    <link rel="stylesheet" href="https://vikoisoft.com/assets/vikoisoft/css/main.css" media="all">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://vikoisoft.com/assets/vikoisoft/js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    
+<div class="loader-wrapper">
+  <div class="boxed-img">
+    <img src="https://vikoisoft.com//assets/vikoisoft/logo.svg" alt="logo">
+  </div>
+</div>
+    <div>
+        
+<header id="header">
+  <div class="header header-desktop">
+    <div class="container ">
+      <div class="container--header">
+        <div class="header_logo">
+          <a href="/">
+            <img src="https://vikoisoft.com//assets/vikoisoft/logo.svg" alt="">
+          </a>
+        </div>
+        <div class="header_right">
+          <a class="menu-item active" href="https://vikoisoft.com/">Home                                        </a><a class="menu-item" href="https://vikoisoft.com/company.html">About us</a><a class="menu-item" href="https://vikoisoft.com/why-us.html">Why us</a><a class="menu-item" href="https://vikoisoft.com/services.html">Services</a><a class="menu-item" href="https://vikoisoft.com/blockchain.html">Blockchain</a><a class="menu-item" href="https://vikoisoft.com/contact.html">Contact</a>          <div class="dropdown">
+            <a class="btn p-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://vikoisoft.com//assets/vikoisoft/images/flags/uk.svg" alt="">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <a href="https://vikoisoft.com/vi/" class="dropdown-item">
+                <img src="https://vikoisoft.com//assets/vikoisoft/images/flags/vn.svg" alt="">
+                Tiếng Việt
+              </a>
+              <a href="https://vikoisoft.com/" class="dropdown-item">
+                <img src="https://vikoisoft.com//assets/vikoisoft/images/flags/uk.svg" alt="">
+                English
+              </a>
+              <a href="https://vikoisoft.com/ja/" class="dropdown-item">
+                <img src="https://vikoisoft.com//assets/vikoisoft/images/flags/ja.svg" alt="">
+                日本語
+              </a>
+              <a href="https://vikoisoft.com/ko/" class="dropdown-item">
+                <img src="https://vikoisoft.com//assets/vikoisoft/images/flags/ko.svg" alt="">
+                한국어
+              </a>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-mobile">
+    <div class="menu-top">
+      <a class="logo" href="#">
+        <img src="https://vikoisoft.com//assets/vikoisoft/logo.svg" alt="" class="white">
+      </a>
+
+      <a href="#primary" class="menu-link">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </a>
+    </div>
+
+    <div class="menu-bottom ">
+      <ul class="list">
+        <a class="menu-item active" href="https://vikoisoft.com/">Home                                        </a><a class="menu-item" href="https://vikoisoft.com/company.html">About us</a><a class="menu-item" href="https://vikoisoft.com/why-us.html">Why us</a><a class="menu-item" href="https://vikoisoft.com/services.html">Services</a><a class="menu-item" href="https://vikoisoft.com/blockchain.html">Blockchain</a><a class="menu-item" href="https://vikoisoft.com/contact.html">Contact</a>
+        <li class="gr-btn">
+            <a href="https://vikoisoft.com/vi/" class="dropdown-item">
+                <img src="https://vikoisoft.com//assets/vikoisoft/images/flags/vn.svg" alt="">
+            </a>
+            <a href="https://vikoisoft.com/" class="dropdown-item">
+                <img src="https://vikoisoft.com//assets/vikoisoft/images/flags/uk.svg" alt="">
+            </a>
+            <a href="https://vikoisoft.com/ja/" class="dropdown-item">
+                <img src="https://vikoisoft.com//assets/vikoisoft/images/flags/ja.svg" alt="">
+            </a>
+            <a href="https://vikoisoft.com/ko/" class="dropdown-item">
+                <img src="https://vikoisoft.com//assets/vikoisoft/images/flags/ko.svg" alt="">
+            </a>
+        </li>
+      </ul>
+      <div class="bt">
+        <img src="https://vikoisoft.com//images/logo-white.png" alt="">
+        <p>Copyright © 2022 VIKOISOFT.COM
+        </p>
+      </div>
+    </div>
+  </div>
+</header>
+        <section class="hero">
+<div class="hero-inner">
+<div class="hero-list">
+<div class="hero-item ">
+<div class="container">
+<div class="hover-img ">
+<figure><img alt="" src="https://www.vikoisoft.com/assets/vikoisoft/images/a2.jpg" style="width: 520px; height: 410px;" /></figure>
+</div>
+<span><svg fill="none" height="54" viewbox="0 0 69 54" width="69" xmlns="http://www.w3.org/2000/svg"> <path d="M7.70292 50.9675L7.69723 50.9648C4.84418 49.5956 3.03939 47.1181 2.24262 43.6805L2.24197 43.6777L2.24198 43.6777C1.47111 40.3029 1.1 34.721 1.1 27C1.1 19.2812 1.47084 13.7215 2.2423 10.3919C3.03765 6.91141 4.83978 4.40648 7.69724 3.03519L7.70291 3.03247L7.70292 3.03249C10.5083 1.71021 15.0672 1.1 21.2394 1.1C27.4071 1.1 31.946 1.70913 34.7086 3.0338C37.6107 4.40268 39.4399 6.90609 40.2365 10.3922M7.70292 50.9675L39.3593 10.5937M7.70292 50.9675C10.5083 52.2898 15.0672 52.9 21.2394 52.9C27.4068 52.9 31.9456 52.2909 34.7083 50.9664M7.70292 50.9675L8.08663 50.1534C10.6985 51.3845 15.0828 52 21.2394 52C27.3959 52 31.7569 51.3845 34.3221 50.1534M40.2365 10.3922C40.2366 10.3926 40.2366 10.3929 40.2367 10.3933L39.3593 10.5937M40.2365 10.3922C40.2363 10.3916 40.2362 10.3911 40.2361 10.3905L39.3593 10.5937M40.2365 10.3922C41.0079 13.7217 41.3787 19.2814 41.3787 27C41.3787 34.721 41.0076 40.3029 40.2367 43.6777L40.2361 43.6805C39.438 47.1237 37.606 49.5997 34.7083 50.9664M39.3593 10.5937C40.1056 13.8134 40.4787 19.2822 40.4787 27C40.4787 34.7178 40.1056 40.2102 39.3593 43.4773C38.6131 46.697 36.934 48.9224 34.3221 50.1534M34.7083 50.9664C34.7093 50.9658 34.7104 50.9653 34.7115 50.9648L34.3221 50.1534M34.7083 50.9664C34.7075 50.9668 34.7066 50.9671 34.7058 50.9675L34.3221 50.1534M25.8021 13.3472L25.8268 13.3625L25.8524 13.3762C26.3262 13.6293 26.8364 14.3832 27.0627 16.1753C27.2877 17.9567 27.4054 21.5465 27.4054 27C27.4054 32.4535 27.2877 36.0433 27.0627 37.8247C26.8386 39.5995 26.3321 40.4075 25.8274 40.7087C25.5516 40.8621 25.0548 41.0183 24.262 41.1301C23.4788 41.2405 22.4747 41.2989 21.2394 41.2989C20.0043 41.2989 18.9936 41.2406 18.1976 41.1299C17.411 41.0205 16.8928 40.8674 16.5833 40.7089C16.12 40.4049 15.6392 39.5921 15.416 37.8247C15.191 36.0433 15.0733 32.4535 15.0733 27C15.0733 21.5465 15.191 17.9567 15.416 16.1753C15.6442 14.3678 16.1381 13.6123 16.5743 13.3663L16.5813 13.3624L16.5882 13.3583C16.8882 13.182 17.4055 13.0091 18.2097 12.8861C19.0005 12.7651 20.0068 12.7011 21.2394 12.7011C22.4722 12.7011 23.4719 12.7652 24.2497 12.8858C25.0435 13.0089 25.5336 13.1806 25.8021 13.3472ZM53.5819 51.4318V52.3318H54.4819H66.6552H67.5552V51.4318V2.56818V1.66818H66.6552H58.3298H58.1113L57.9171 1.76835L45.1142 8.37347L44.6268 8.6249V9.1733V19.1875V20.5421L45.8756 20.0172L53.5819 16.7779V51.4318Z" stroke="white" stroke-opacity="0.55" stroke-width="1.8"></path> </svg> </span></div>
+</div>
+
+<div class="hero-item ">
+<div class="container">
+<div class="hover-img ">
+<figure><img alt="" src="https://www.vikoisoft.com/assets/vikoisoft/images/banner/pic__home_banner_2.jpg" style="height: 432px; width: 520px;" /></figure>
+</div>
+<span><svg fill="none" height="54" viewbox="0 0 69 54" width="69" xmlns="http://www.w3.org/2000/svg"> <path d="M7.70292 50.9675L7.69723 50.9648C4.84418 49.5956 3.03939 47.1181 2.24262 43.6805L2.24197 43.6777L2.24198 43.6777C1.47111 40.3029 1.1 34.721 1.1 27C1.1 19.2812 1.47084 13.7215 2.2423 10.3919C3.03765 6.91141 4.83978 4.40648 7.69724 3.03519L7.70291 3.03247L7.70292 3.03249C10.5083 1.71021 15.0672 1.1 21.2394 1.1C27.4071 1.1 31.946 1.70913 34.7086 3.0338C37.6107 4.40268 39.4399 6.90609 40.2365 10.3922M7.70292 50.9675L39.3593 10.5937M7.70292 50.9675C10.5083 52.2898 15.0672 52.9 21.2394 52.9C27.4068 52.9 31.9456 52.2909 34.7083 50.9664M7.70292 50.9675L8.08663 50.1534C10.6985 51.3845 15.0828 52 21.2394 52C27.3959 52 31.7569 51.3845 34.3221 50.1534M40.2365 10.3922C40.2366 10.3926 40.2366 10.3929 40.2367 10.3933L39.3593 10.5937M40.2365 10.3922C40.2363 10.3916 40.2362 10.3911 40.2361 10.3905L39.3593 10.5937M40.2365 10.3922C41.0079 13.7217 41.3787 19.2814 41.3787 27C41.3787 34.721 41.0076 40.3029 40.2367 43.6777L40.2361 43.6805C39.438 47.1237 37.606 49.5997 34.7083 50.9664M39.3593 10.5937C40.1056 13.8134 40.4787 19.2822 40.4787 27C40.4787 34.7178 40.1056 40.2102 39.3593 43.4773C38.6131 46.697 36.934 48.9224 34.3221 50.1534M34.7083 50.9664C34.7093 50.9658 34.7104 50.9653 34.7115 50.9648L34.3221 50.1534M34.7083 50.9664C34.7075 50.9668 34.7066 50.9671 34.7058 50.9675L34.3221 50.1534M25.8021 13.3472L25.8268 13.3625L25.8524 13.3762C26.3262 13.6293 26.8364 14.3832 27.0627 16.1753C27.2877 17.9567 27.4054 21.5465 27.4054 27C27.4054 32.4535 27.2877 36.0433 27.0627 37.8247C26.8386 39.5995 26.3321 40.4075 25.8274 40.7087C25.5516 40.8621 25.0548 41.0183 24.262 41.1301C23.4788 41.2405 22.4747 41.2989 21.2394 41.2989C20.0043 41.2989 18.9936 41.2406 18.1976 41.1299C17.411 41.0205 16.8928 40.8674 16.5833 40.7089C16.12 40.4049 15.6392 39.5921 15.416 37.8247C15.191 36.0433 15.0733 32.4535 15.0733 27C15.0733 21.5465 15.191 17.9567 15.416 16.1753C15.6442 14.3678 16.1381 13.6123 16.5743 13.3663L16.5813 13.3624L16.5882 13.3583C16.8882 13.182 17.4055 13.0091 18.2097 12.8861C19.0005 12.7651 20.0068 12.7011 21.2394 12.7011C22.4722 12.7011 23.4719 12.7652 24.2497 12.8858C25.0435 13.0089 25.5336 13.1806 25.8021 13.3472ZM53.5819 51.4318V52.3318H54.4819H66.6552H67.5552V51.4318V2.56818V1.66818H66.6552H58.3298H58.1113L57.9171 1.76835L45.1142 8.37347L44.6268 8.6249V9.1733V19.1875V20.5421L45.8756 20.0172L53.5819 16.7779V51.4318Z" stroke="white" stroke-opacity="0.55" stroke-width="1.8"></path> </svg> </span></div>
+</div>
+
+<div class="hero-item ">
+<div class="container">
+<div class="hover-img ">
+<figure><img alt="" src="https://www.vikoisoft.com/assets/vikoisoft/images/banner/pic__home_banner_3.jpg" style="height: 432px; width: 520px;" /></figure>
+</div>
+<span><svg fill="none" height="54" viewbox="0 0 69 54" width="69" xmlns="http://www.w3.org/2000/svg"> <path d="M7.70292 50.9675L7.69723 50.9648C4.84418 49.5956 3.03939 47.1181 2.24262 43.6805L2.24197 43.6777L2.24198 43.6777C1.47111 40.3029 1.1 34.721 1.1 27C1.1 19.2812 1.47084 13.7215 2.2423 10.3919C3.03765 6.91141 4.83978 4.40648 7.69724 3.03519L7.70291 3.03247L7.70292 3.03249C10.5083 1.71021 15.0672 1.1 21.2394 1.1C27.4071 1.1 31.946 1.70913 34.7086 3.0338C37.6107 4.40268 39.4399 6.90609 40.2365 10.3922M7.70292 50.9675L39.3593 10.5937M7.70292 50.9675C10.5083 52.2898 15.0672 52.9 21.2394 52.9C27.4068 52.9 31.9456 52.2909 34.7083 50.9664M7.70292 50.9675L8.08663 50.1534C10.6985 51.3845 15.0828 52 21.2394 52C27.3959 52 31.7569 51.3845 34.3221 50.1534M40.2365 10.3922C40.2366 10.3926 40.2366 10.3929 40.2367 10.3933L39.3593 10.5937M40.2365 10.3922C40.2363 10.3916 40.2362 10.3911 40.2361 10.3905L39.3593 10.5937M40.2365 10.3922C41.0079 13.7217 41.3787 19.2814 41.3787 27C41.3787 34.721 41.0076 40.3029 40.2367 43.6777L40.2361 43.6805C39.438 47.1237 37.606 49.5997 34.7083 50.9664M39.3593 10.5937C40.1056 13.8134 40.4787 19.2822 40.4787 27C40.4787 34.7178 40.1056 40.2102 39.3593 43.4773C38.6131 46.697 36.934 48.9224 34.3221 50.1534M34.7083 50.9664C34.7093 50.9658 34.7104 50.9653 34.7115 50.9648L34.3221 50.1534M34.7083 50.9664C34.7075 50.9668 34.7066 50.9671 34.7058 50.9675L34.3221 50.1534M25.8021 13.3472L25.8268 13.3625L25.8524 13.3762C26.3262 13.6293 26.8364 14.3832 27.0627 16.1753C27.2877 17.9567 27.4054 21.5465 27.4054 27C27.4054 32.4535 27.2877 36.0433 27.0627 37.8247C26.8386 39.5995 26.3321 40.4075 25.8274 40.7087C25.5516 40.8621 25.0548 41.0183 24.262 41.1301C23.4788 41.2405 22.4747 41.2989 21.2394 41.2989C20.0043 41.2989 18.9936 41.2406 18.1976 41.1299C17.411 41.0205 16.8928 40.8674 16.5833 40.7089C16.12 40.4049 15.6392 39.5921 15.416 37.8247C15.191 36.0433 15.0733 32.4535 15.0733 27C15.0733 21.5465 15.191 17.9567 15.416 16.1753C15.6442 14.3678 16.1381 13.6123 16.5743 13.3663L16.5813 13.3624L16.5882 13.3583C16.8882 13.182 17.4055 13.0091 18.2097 12.8861C19.0005 12.7651 20.0068 12.7011 21.2394 12.7011C22.4722 12.7011 23.4719 12.7652 24.2497 12.8858C25.0435 13.0089 25.5336 13.1806 25.8021 13.3472ZM53.5819 51.4318V52.3318H54.4819H66.6552H67.5552V51.4318V2.56818V1.66818H66.6552H58.3298H58.1113L57.9171 1.76835L45.1142 8.37347L44.6268 8.6249V9.1733V19.1875V20.5421L45.8756 20.0172L53.5819 16.7779V51.4318Z" stroke="white" stroke-opacity="0.55" stroke-width="1.8"></path> </svg> </span></div>
+</div>
+</div>
+
+<div class="hero-content">
+<div class="hero-content-inner">
+<p style="text-align: justify;">Vikoisoft&nbsp;is a Vietnamese software development company with local consulting teams in the USA, Japan and Vietnam.</p>
+
+<p style="text-align: justify;">From custom software, mobile app development, website design, to Data engineering, AI, and Blockchain, we harness the power of data, artificial intelligence, modernizing core, optimising and automating operations to achieve your business goals.</p>
+
+<div class="gr-btn"><a class="btn btn-secondary" href="https://www.vikoisoft.com/company.html">About us</a><a class="btn btn-border" href="https://www.vikoisoft.com/contact.html">Contact us</a></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="about">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<div class="about-content">
+<div class="section-title mb-4"><span>we are&nbsp;</span>
+
+<div class="d-inline-block"><span class="text-main">Vikoi</span> <span class="text-secondary">soft</span></div>
+</div>
+
+<p style="text-align: justify;">The leading Blockchain service provider and software development partner in Vietnam. We are confident in our position and role in offering high-tech application services because of our extensive expertise in planning, designing, developing, and executing Blockchain projects as well as other IT services</p>
+
+<p><a class="btn btn-secondary" href="https://www.vikoisoft.com/company.html"><span class="text-uppercase fw-bold">read more</span> <img alt="" src="https://www.vikoisoft.com/assets/vikoisoft/images/icon/arrow-right.svg" /> </a></p>
+
+<p>&nbsp;</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="hover-img ">
+<figure><img alt="" src="https://www.vikoisoft.com/assets/vikoisoft/images/banner/pic__home_we_are_vikoisoft.png" /></figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="ecosystem">
+<div class="container">
+<div class="section-title">
+<div class="d-inline-block"><span class="text-main">Vikoi</span> <span class="text-secondary">soft's serviceS</span></div>
+</div>
+
+<p class="section-content mb-5">Vikoisoft provides software development services for a variety of industries and uses.</p>
+
+<div class="ecosystem-list">
+<div class="ecosystem-item">
+<div class="ecosystem-icon"><img alt="" src="https://www.vikoisoft.com/assets/vikoisoft/images/icon/Property 1=web-page.svg" /></div>
+
+<h3>Responsive website and Landing page Design</h3>
+
+<p style="text-align: justify;">Vikoisoft will provide responsive site designs that display well on all types of devices, browsers, screens, and operating systems</p>
+</div>
+
+<div class="ecosystem-item">
+<div class="ecosystem-icon"><img alt="" src="https://www.vikoisoft.com/assets/vikoisoft/images/icon/Property 1=world.svg" /></div>
+
+<h3>Web Application Development</h3>
+
+<p style="text-align: justify;">Vikoisoft develops various applications such as e-commerce applications, management applications, orders and sale consulting applications, business data aggregation applications, work reporting applications, etc.</p>
+</div>
+
+<div class="ecosystem-item">
+<div class="ecosystem-icon"><img alt="" src="https://www.vikoisoft.com/assets/vikoisoft/images/icon/Property 1=responsive.svg" /></div>
+
+<h3>Mobile Application Development</h3>
+
+<p style="text-align: justify;">Vikoisoft develops mobile applications which are compatible with many operating systems, the most popular of which are iOS and Android.</p>
+</div>
+
+<div class="ecosystem-item">
+<div class="ecosystem-icon"><img alt="" src="https://www.vikoisoft.com/assets/vikoisoft/images/icon/Property 1=cms.svg" /></div>
+
+<h3>Desktop Application Development</h3>
+
+<p style="text-align: justify;">Vikoisoft develops desktop applications that are compatible with well-known operating systems including Windows and macOS.&nbsp;</p>
+</div>
+
+<div class="ecosystem-item">
+<div class="ecosystem-icon"><img alt="" src="https://www.vikoisoft.com/assets/vikoisoft/images/icon/Property 1=layers.svg" /></div>
+
+<h3>UI/UX Design</h3>
+
+<p style="text-align: justify;">We have experience designing UI/UX that provide users with information they need quickly and easily, provide clear visual information for navigation, and encourage users to take action.</p>
+</div>
+
+<div class="ecosystem-item">
+<div class="ecosystem-icon"><img alt="" src="https://www.vikoisoft.com/assets/vikoisoft/images/icon/Property 1=Monitoring.svg" /></div>
+
+<h3>System Integration</h3>
+
+<p style="text-align: justify;">In addition to its proficiency in creating software applications, Vikoisoft also has skills in maintaining, enhancing, and adding features to enterprise systems.</p>
+</div>
+
+<div class="ecosystem-item">
+<div class="ecosystem-icon"><img alt="" src="https://www.vikoisoft.com/assets/vikoisoft/images/icon/Property 1=Monitoring.svg" /></div>
+
+<h3>Blockchain Technology</h3>
+
+<p style="text-align: justify;">From idea to production, we provide custom blockchain software and solutions for teams and businesses to automate, secure and optimize operations.</p>
+</div>
+
+<div class="ecosystem-item">
+<div class="ecosystem-icon"><img alt="" src="https://www.vikoisoft.com/assets/vikoisoft/images/icon/Property 1=repair.svg" /></div>
+
+<h3>Software Outsourcing</h3>
+
+<p style="text-align: justify;">Vikoisoft receives requests from customers to implement part or the whole project. Vikoisoft expects and confidently accepts requests from customers, even difficult problems.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="blockchain">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<h2 class="blockchain-title ">VIKOISOFT'S BLOCKCHAIN TECHNOLOGY</h2>
+
+<p class="text-white" style="text-align: justify;">Vikoisoft was established based on long-term experience in developing Blockchain application projects and software development from many partners of major countries in the world such as Japan, Korea, USA, etc.</p>
+<a class="btn btn-secondary" href="https://www.vikoisoft.com/blockchain.html"><span class="text-uppercase fw-bold">Read more</span> <img alt="" src="https://www.vikoisoft.com/assets/vikoisoft/images/icon/arrow-right.svg" /></a></div>
+
+<div class="col-md-6">
+<div class="d-flex justify-content-center">
+<div class="hover-img ">
+<figure><img alt="" src="https://www.vikoisoft.com/assets/vikoisoft/images/home/blockchain.png" /></figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<p>
+<section class="ability bg-world">
+  <div class="container">
+    <div class="section-title">
+                <span>Ability of </span>
+          <div class="d-inline-block">
+              <span class="text-main">Vikoi</span>
+              <span class="text-secondary">soft</span>
+          </div>
+            </div>
+    <div class="technology ">
+      <ul>
+        <li>
+          <button class="tablink" onclick="openTechnology('all', this, '#e55e1a')" id="defaultOpen">
+            All          </button>
+        </li>
+        <li>
+          <button class="tablink" onclick="openTechnology('web', this, '#e55e1a')">Web Development</button>
+        </li>
+        <li>
+          <button class="tablink" onclick="openTechnology('mobile', this, '#e55e1a')">Mobile Development</button>
+        </li>
+        <li>
+          <button class="tablink" onclick="openTechnology('blockchain', this, '#e55e1a')">Blockchain</button>
+        </li>
+
+      </ul>
+      <div id="all" class="technology--list">
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/laravel.svg" alt="laravel">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/nodejs.svg" alt="nodejs">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/java.svg" alt="java">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/angular.svg" alt="angularJs">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/mobile/flutter.svg" alt="flutter">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/mobile/nat.png" alt="react native">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/mobile/android.svg" alt="android">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/mobile/ios.png" alt="ios">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/nestjs.svg" alt="nestjs">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/react.svg" alt="react">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/vue.svg" alt="vuejs">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/flask.svg" alt="flask">
+        </div>
+
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/blockchain/btc.svg" alt="Bitcoin">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/blockchain/binance.svg" alt="BNB">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/blockchain/eth.svg" alt="ETH">
+        </div>
+      </div>
+      <div id="web" class="technology--list">
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/laravel.svg" alt="laravel">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/nodejs.svg" alt="nodejs">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/java.svg" alt="java">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/angular.svg" alt="angular">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/nestjs.svg" alt="nestjs">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/react.svg" alt="react">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/vue.svg" alt="vuejs">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/web/flask.svg" alt="flask">
+        </div>
+      </div>
+      <div id="mobile" class="technology--list">
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/mobile/flutter.svg" alt="flutter">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/mobile/nat.png" alt="react native">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/mobile/android.svg" alt="android">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/mobile/ios.png" alt="ios">
+        </div>
+      </div>
+      <div id="blockchain" class="technology--list">
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/blockchain/btc.svg" alt="Bitcoin">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/blockchain/binance.svg" alt="BNB">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/solidity.svg" alt="solidity">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/blockchain/eth.svg" alt="eth">
+        </div>
+        <div class="technology--item">
+          <img src="https://vikoisoft.com/assets/vikoisoft/images/tech/blockchain/klaytn.svg" alt="Klay">
+        </div>
+      </div>
+    </div>
+  </div>
+</section></p>
+    </div>
+    
+
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="d-block mb-3 header_logo">
+                        <img src="https://vikoisoft.com/assets/vikoisoft/images/logo-white.png" alt="">
+                    </a>
+                    <p style="text-align: justify;">
+                        Vikoisoft - The leading Blockchain service provider and software development partner in Vietnam. We focus on offering blockchain solutions and software development services to both domestic and foreign enterprises.                    </p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/vikoisoftvn">
+                            <img src="https://vikoisoft.com/assets/vikoisoft/images/icon/fb-brands.svg"
+                                 alt="facebook">
+                        </a>
+<!--                        <a href="#">-->
+<!--                            <img src="--><!--assets/vikoisoft/images/icon/instagram-brands.svg"-->
+<!--                                 alt="ins">-->
+<!--                        </a>-->
+<!--                        <a href="#">-->
+<!--                            <img src="--><!--assets/vikoisoft/images/icon/tw-brands.svg"-->
+<!--                                 alt="tw">-->
+<!--                        </a>-->
+<!--                        <a href="">-->
+<!--                            <img src="--><!--assets/vikoisoft/images/icon/app-brands.svg"-->
+<!--                                 alt="app">-->
+<!--                        </a>-->
+                    </div>
+                </div>
+                <div class="col-md-3 col-7">
+                    <ul>
+                        <li>Services</li>
+                                                    <li>
+                                <a href="https://vikoisoft.com/services.html">Software Outsourcing</a>
+                            </li>
+                                                    <li>
+                                <a href="https://vikoisoft.com/blockchain.html">Blockchain</a>
+                            </li>
+                                            </ul>
+                </div>
+                <div class="col-md-2 col-5">
+                    <ul>
+                        <li>Link</li>
+                                                    <li>
+                                <a href="https://vikoisoft.com/company.html">About Us</a>
+                            </li>
+                                                    <li>
+                                <a href="https://vikoisoft.com/services.html">Services</a>
+                            </li>
+                                                    <li>
+                                <a href="https://vikoisoft.com/jobs.html">Career</a>
+                            </li>
+                                                    <li>
+                                <a href="https://vikoisoft.com/contact.html">Contact Us</a>
+                            </li>
+                                            </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li>Contact</li>
+                        <li>
+                            <svg width="34" height="35" viewBox="0 0 34 35" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M26.7107 22.665L25.8597 26.3545C25.7402 26.876 25.2818 27.2409 24.7448 27.2409C15.5106 27.2402 8 19.7296 8 10.495C8 9.95842 8.36488 9.49944 8.88649 9.38048L12.5759 8.5295C13.1132 8.40498 13.6623 8.68388 13.8855 9.19272L15.5882 13.164C15.7873 13.6318 15.653 14.1768 15.2596 14.4981L13.2889 16.0804C14.5326 18.614 16.5926 20.6739 19.1269 21.9183L20.7403 19.9492C21.0583 19.5546 21.6074 19.4181 22.0751 19.6207L26.0464 21.323C26.5241 21.5743 26.8352 22.1306 26.7107 22.665Z"
+                                      fill="white"/>
+                            </svg>
+                            <a href="tel:+(84) 944-150-825">+(84) 944-150-825</a>
+                        </li>
+                        <li>
+                            <svg width="34" height="35" viewBox="0 0 34 35" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 12.8425C8 11.5486 9.04863 10.5 10.3425 10.5H24.3975C25.6895 10.5 26.74 11.5486 26.74 12.8425V22.2125C26.74 23.5045 25.6895 24.555 24.3975 24.555H10.3425C9.04863 24.555 8 23.5045 8 22.2125V12.8425ZM9.75688 12.8425V13.6514L16.0706 18.8342C16.8246 19.4564 17.9154 19.4564 18.6694 18.8342L24.9831 13.6514V12.8096C24.9831 12.5204 24.7196 12.2239 24.3975 12.2239H10.3425C10.0189 12.2239 9.75688 12.5204 9.75688 12.8096V12.8425ZM9.75688 15.9244V22.2125C9.75688 22.5346 10.0189 22.7981 10.3425 22.7981H24.3975C24.7196 22.7981 24.9831 22.5346 24.9831 22.2125V15.9244L19.7857 20.1921C18.3802 21.345 16.3598 21.345 14.9214 20.1921L9.75688 15.9244Z"
+                                      fill="white"/>
+                            </svg>
+                            <a href="mailto: info@vikoisoft.com">info@vikoisoft.com</a>
+                        </li>
+                        <li>
+                            <svg width="34" height="35" viewBox="0 0 34 35" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.176 26.8189C14.2605 24.463 10 18.753 10 15.5457C10 11.6544 13.1544 8.5 17.0457 8.5C20.9356 8.5 24.0915 11.6544 24.0915 15.5457C24.0915 18.753 19.798 24.463 17.9154 26.8189C17.4641 27.3804 16.6274 27.3804 16.176 26.8189ZM17.0457 17.8943C18.3411 17.8943 19.3943 16.8411 19.3943 15.5457C19.3943 14.2503 18.3411 13.1972 17.0457 13.1972C15.7503 13.1972 14.6972 14.2503 14.6972 15.5457C14.6972 16.8411 15.7503 17.8943 17.0457 17.8943Z"
+                                      fill="white"/>
+                            </svg>
+                            <a href="#">10F, Viet A Tower, 9 Duy Tan Street, Cau Giay, Hanoi, Vietnam</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                Copyright © 2025 VIKOISOFT.COM
+            </div>
+        </div>
+    </div>
+</footer>
+<a href="##" class="scrollup">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17.3683 9.68436C16.9104 10.1422 16.1692 10.1415 15.712 9.68436L13.0273 7.00147V20.5697C13.0273 21.2171 12.5035 21.7409 11.8561 21.7409C11.2086 21.7409 10.6848 21.2171 10.6848 20.5697V7.00147L7.99936 9.68436C7.54184 10.1419 6.80066 10.1419 6.34314 9.68436C5.88562 9.22684 5.88562 8.48566 6.34314 8.02814L11.0281 3.34314C11.4857 2.88562 12.2268 2.88562 12.6844 3.34314L17.3694 8.02814C17.8258 8.48749 17.8258 9.22684 17.3683 9.68436Z"
+              fill="#E55E1A"/>
+    </svg>
+</a>
+
+<script src="https://vikoisoft.com/assets/vikoisoft/js/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+<script src="https://vikoisoft.com/assets/vikoisoft/js/slick.js"></script>
+<script src="https://vikoisoft.com/assets/vikoisoft/js//main.js"></script>
+<script>
+    function openTechnology(name, elmnt, color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("technology--list");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+            tablinks[i].style.color = "#333";
+        }
+        document.getElementById(name).style.display = "flex";
+        elmnt.style.backgroundColor = color;
+        elmnt.style.color = '#fff';
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+</body>
+
+</html>
